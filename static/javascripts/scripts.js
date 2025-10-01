@@ -82,6 +82,7 @@ function processRequest(input) {
     return table;
 }
 
+
 export { processRequest };
 
 document.addEventListener('DOMContentLoaded', () => {
