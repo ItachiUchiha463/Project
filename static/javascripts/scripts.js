@@ -82,6 +82,8 @@ function processRequest(input) {
     return table;
 }
 
+export { processRequest };
+
 document.addEventListener('DOMContentLoaded', () => {
     const submitButton = document.getElementById('submit_button');
     const tableContainer = document.getElementById('jeans-details');
@@ -102,5 +104,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-
-export { processRequest };
